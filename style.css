@@ -1,0 +1,5 @@
+.no-button {
+    position: relative;
+    transition: transform 0.01s ease-in-out;
+  }
+  

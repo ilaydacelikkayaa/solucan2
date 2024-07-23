@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+ h1{
+ font-size: 50px;
+ color: rgb(188, 121, 121);
+ text-align: center;   
+ margin-top: 120px;
+
+}
+img {
+            max-width: 100%; /* Resmin genişliğini ekran genişliğine uyumlu hale getirir */
+            height: auto; /* Yüksekliği genişliğe orantılı olarak ayarlar */
+            border: 2px solid #b47777; /* İsteğe bağlı olarak bir çerçeve ekler */
+            border-radius: 10px; /* Kenarları yuvarlar */
+        }
+        .app {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Butonları yatay olarak ortalar */
+        }
+
+        .btngroup {
+            display: flex;
+            gap: 10px; /* Butonlar arasına boşluk ekler */
+        }
+        .yes-button, .no-button {
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+     
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sevgi</title>
+    
+</head>
+<body>
+
+<body style="background-color: rgb(217, 207, 227);"></body>
+<h1>beni solucan olsam da sever misin?</h1>
+<div style="text-align: center;">
+    <img src="img/depositphotos_324536688-stock-illustration-cute-cartoon-earthworms (2).jpg" width="300" height="250" >
+</div>
+<div class="app">
+        <div class="btngroup">
+            <button class="yes-button">Evet</button>
+            <button class="no-button" id="no-button">Hayır</button>
+    
+        </div>
+    
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
